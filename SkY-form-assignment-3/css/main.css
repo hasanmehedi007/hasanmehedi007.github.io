@@ -1,0 +1,111 @@
+      h1 {
+        margin-top: 0;
+	text-decoration:underline;
+	
+	font-size:50px;
+	text-align:center;
+      }
+
+      ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+      }
+
+
+      form {
+          margin: 0 auto;
+          width: 400px;
+          padding: 1em;
+          border: 1px solid #CCC;
+          border-radius: 1em;
+      }
+
+      div+div {
+          margin-top: 1em;
+      }
+
+      label span {
+          display: inline-block;
+          width: 120px;
+          text-align: right;
+      }
+
+      input, textarea {
+          font: 1em sans-serif;
+          width: 250px;
+          box-sizing: border-box;
+          border: 1px solid #999;
+      }
+
+      input[type=checkbox], input[type=radio] {
+          width: auto;
+          border: none;
+      }
+
+      input:focus, textarea:focus {
+          border-color: #000;
+      }
+
+      textarea {
+          vertical-align: top;
+          height: 5em;
+          resize: vertical;
+      }
+
+      fieldset {
+          width: 250px;
+          box-sizing: border-box;
+          margin-left: 136px;
+          border: 1px solid #999;
+      }
+
+      #buttons {
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+#buttons :first-child {
+    float: right;
+}
+
+#buttons :nth-child(2) {
+    margin-right: 15px;
+    float: right;
+    padding: 10px 25px;
+}
+
+button  {
+    background: rgba(10, 190, 81, 1);
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+      }
+
+      label {
+        position: relative;
+      }
+
+      label em {
+        position: absolute;
+        right: 5px;
+        top: 20px;
+      }
+  html{ 
+  	background-color: #14044B;
+
+   }
+
+
+   body{ 
+   	width: 500px;
+   	margin: 2px auto;
+   	background-color: #7C081B;
+	font-family: "Times New Roman", Times, serif;
+
+   	padding: 20px 20px 20px 20px;
+   	border: 5px solid black;
